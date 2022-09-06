@@ -15,6 +15,9 @@
 		241B229828C3BC500062086F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241B229628C3BC500062086F /* LaunchScreen.storyboard */; };
 		241B22A128C62CEA0062086F /* MyCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241B229F28C62CEA0062086F /* MyCustomTableViewCell.swift */; };
 		241B22A228C62CEA0062086F /* MyCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 241B22A028C62CEA0062086F /* MyCustomTableViewCell.xib */; };
+		B0AAF06028C7B6CF00F92629 /* ViewControllerContants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AAF05F28C7B6CF00F92629 /* ViewControllerContants.swift */; };
+		B0AAF06228C7B90600F92629 /* ViewControllersLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AAF06128C7B90600F92629 /* ViewControllersLayout.swift */; };
+		B0AAF06428C7BBE700F92629 /* CountriesViewControllerAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AAF06328C7BBE700F92629 /* CountriesViewControllerAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		241B229928C3BC500062086F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		241B229F28C62CEA0062086F /* MyCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTableViewCell.swift; sourceTree = "<group>"; };
 		241B22A028C62CEA0062086F /* MyCustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomTableViewCell.xib; sourceTree = "<group>"; };
+		B0AAF05F28C7B6CF00F92629 /* ViewControllerContants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerContants.swift; sourceTree = "<group>"; };
+		B0AAF06128C7B90600F92629 /* ViewControllersLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllersLayout.swift; sourceTree = "<group>"; };
+		B0AAF06328C7BBE700F92629 /* CountriesViewControllerAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewControllerAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,9 @@
 				241B229928C3BC500062086F /* Info.plist */,
 				241B229F28C62CEA0062086F /* MyCustomTableViewCell.swift */,
 				241B22A028C62CEA0062086F /* MyCustomTableViewCell.xib */,
+				B0AAF05F28C7B6CF00F92629 /* ViewControllerContants.swift */,
+				B0AAF06128C7B90600F92629 /* ViewControllersLayout.swift */,
+				B0AAF06328C7BBE700F92629 /* CountriesViewControllerAdapter.swift */,
 			);
 			path = TableViews;
 			sourceTree = "<group>";
@@ -145,10 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0AAF06228C7B90600F92629 /* ViewControllersLayout.swift in Sources */,
 				241B229028C3BC4E0062086F /* ViewController.swift in Sources */,
 				241B228C28C3BC4E0062086F /* AppDelegate.swift in Sources */,
 				241B22A128C62CEA0062086F /* MyCustomTableViewCell.swift in Sources */,
+				B0AAF06028C7B6CF00F92629 /* ViewControllerContants.swift in Sources */,
 				241B228E28C3BC4E0062086F /* SceneDelegate.swift in Sources */,
+				B0AAF06428C7BBE700F92629 /* CountriesViewControllerAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
